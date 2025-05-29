@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    margin :0;
+    padding :0;
+    border: none;
+    outline: none;
+    box-sizing: border-box; /* This will keep my content inside the border*/
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: "Poppins", sans-serif;
+    
+}
+html {
+    font-size: 62.5%;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: #1f242d;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    z-index: 100;
+
+}
+
+#port {
+    font-size: 3rem;
+    color: aliceblue;
+    font-weight: 700;
+
+}
+
+
+.navbar a {
+    font-family:aliceblue ;
+    color: antiquewhite;
+    font-weight: 500;
+    margin-left: 3.5rem ;
+    transition: .5s;
+   
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: aquamarine;
+}
+
+
+
